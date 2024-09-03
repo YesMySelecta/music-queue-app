@@ -1,0 +1,1 @@
+** dist should contain compiled JavaScript files (generated from TypeScript) **
