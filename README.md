@@ -15,15 +15,16 @@
 2. Install dependencies: 
    ```bash
    npm install
-   
-   -- To update dependencies to their latest versions, use:
+   ```
+To update dependencies to their latest versions, use:
    ```bash
    npm update
-
+   ```
 3. To start server:
    ```bash
    npm run start
-   
+   ```
    To start server in dev mode (auto reload on code change):
    ```bash
    npm run dev
+   ```
