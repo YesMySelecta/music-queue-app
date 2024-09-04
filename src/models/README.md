@@ -1,0 +1,1 @@
+## Models should contain definitions for data models and schemas ##

@@ -1,1 +1,0 @@
-** Controllers should contain handlers for the logic for different routes **

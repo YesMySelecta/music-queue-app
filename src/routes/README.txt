@@ -1,1 +1,0 @@
-** Routes should contain definitions for the application’s routes. **

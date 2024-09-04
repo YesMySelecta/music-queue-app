@@ -1,1 +1,0 @@
-** Public should contain static files like images, CSS, and client-side JavaScript **
