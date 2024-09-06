@@ -31,7 +31,7 @@ function getWindowsIp() {
 
 // Define a route handler for the root URL
 app.get('/', (req, res) => {
-  res.send('Yoooooooooo my slime 🌱'); // Send "Hello World!" as the response
+  res.send('Welcome to the music queue app!'); // Send "Hello World!" as the response
 });
 
 // Start the server and listen on the specified port
