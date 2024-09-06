@@ -2,9 +2,21 @@ import express from 'express'; // Import the Express library
 const { execSync } = require('child_process');
 
 const app = express(); // Create an instance of an Express application
-const wslIp = '172.23.4.155'
-const port = 3000; // Define the port on which the server will listen
+
 const windowsIp = getWindowsIp();
+const wslIp = getWslIp();
+const port = 3000; // Define the port on which the server will listen
+
+function getWslIp(): string {
+  try {
+    // Execute the shell command to get the IP address
+    const result = execSync("hostname -I | awk '{print $1}'").toString().trim();
+    return result;
+  } catch (error) {
+    console.error('Error getting WSL IP address:', error);
+    return '127.0.0.1'; // Fallback to localhost in case of an error
+  }
+}
 
 function getWindowsIp() {
   try {

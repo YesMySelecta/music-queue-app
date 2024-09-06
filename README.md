@@ -31,7 +31,10 @@ To update dependencies to their latest versions, use:
 
 ## Handy commands
 Change script execution policy for the current user (for auto port-forwarding start script:)
-powerscript```
+```powerscript
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```   
-
+To return policy to default once dev complete:
+```powerscript
+Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope CurrentUser
+```
