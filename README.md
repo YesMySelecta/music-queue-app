@@ -28,3 +28,10 @@ To update dependencies to their latest versions, use:
    ```bash
    npm run dev
    ```
+
+## Handy commands
+Change script execution policy for the current user (for auto port-forwarding start script:)
+powerscript```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```   
+
