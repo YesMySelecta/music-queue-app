@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart" : "powershell.exe -ExecutionPolicy Bypass -File ./AutoPortForwardWindowsToWsl.ps1",
     "start": "ts-node src/server.ts",
     "dev": "nodemon server.js"
   },
